@@ -1,54 +1,14 @@
 import type { ThemeConfig, HeadConfig, HeaderConfig, FooterConfig, DateConfig, FeedConfig } from '$lib/types/general'
 
 export const theme: ThemeConfig = [
-  {
-    name: 'cmyk',
-    text: '🖨 Light'
-  },
-  {
-    name: 'dracula',
-    text: '🧛 Dark'
-  },
-  {
-    name: 'valentine',
-    text: '🌸 Valentine'
-  },
-  {
-    name: 'aqua',
-    text: '💦 Aqua'
-  },
-  {
-    name: 'synthwave',
-    text: '🌃 Synthwave'
-  },
-  {
-    name: 'night',
-    text: '🌃 Night'
-  },
-  {
-    name: 'lofi',
-    text: '🎶 Lo-Fi'
-  },
-  {
-    name: 'lemonade',
-    text: '🍋 Lemonade'
-  },
-  {
-    name: 'cupcake',
-    text: '🧁 Cupcake'
-  },
-  {
-    name: 'garden',
-    text: '🏡 Garden'
-  },
-  {
-    name: 'retro',
-    text: '🌇 Retro'
-  },
-  {
-    name: 'black',
-    text: '🖤 Black'
-  }
+    {
+        name: 'light',
+        text: '☀️ Light'
+    },
+    {
+        name: 'dark',
+        text: '🌙 Dark'
+    },
 ]
 
 export const head: HeadConfig = {}
@@ -56,13 +16,44 @@ export const head: HeadConfig = {}
 export const header: HeaderConfig = {
   nav: [
     {
-      text: 'Get Started',
-      link: '/hello-world'
+        text: 'about me',
+        link: '/about-me'
     },
     {
-      text: 'Elements',
-      link: '/hello-world/elements'
-    }
+      text: 'projects',
+      link: '/projects'
+    },
+    {
+        text: 'blog',
+        // link: '/blog'
+        // sub-sections for blog topics
+        children: [
+            {
+              text: '💭 general',
+              link: '/blog/general'
+            },
+            {
+                text: '🐍 python',
+                link: '/blog/python'
+            },
+            {
+              text: '🐍 pybind11',
+              link: '/blog/pybind11'
+            },
+            {
+                text: '💻 ai & ml',
+                link: '/blog/ai-ml'
+            },
+            {
+                text: '📚 math',
+                link: '/blog/math'
+            },
+            // {
+            //   text: 'section name',
+            //   link: '/folder/file'
+            // },
+          ]    
+    },
   ]
 }
 
