@@ -1,36 +1,36 @@
 {
-  "name": "Urara",
-  "short_name": "Urara",
+  "name": "jiwaszki",
+  "short_name": "jiwaszki",
   "lang": "en-US",
   "description": "Powered by SvelteKit/Urara",
-  "id": "https://urara-demo.netlify.app/",
+  "id": "https://jiwaszki.github.io/",
   "start_url": "/",
   "scope": "/",
   "display": "standalone",
   "orientation": "portrait",
-  "background_color": "#3D4451",
-  "theme_color": "#3D4451",
+  "background_color": "#F5EBD3",
+  "theme_color": "#F5EBD3",
   "icons": [
     {
-      "src": "https://urara-demo.netlify.app/assets/any@192.png",
+      "src": "https://jiwaszki.github.io/assets/any@192.png",
       "sizes": "192x192",
       "type": "image/png",
       "purpose": "any"
     },
     {
-      "src": "https://urara-demo.netlify.app/assets/any@512.png",
+      "src": "https://jiwaszki.github.io/assets/any@512.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "any"
     },
     {
-      "src": "https://urara-demo.netlify.app/assets/maskable@192.png",
+      "src": "https://jiwaszki.github.io/assets/maskable@192.png",
       "sizes": "192x192",
       "type": "image/png",
       "purpose": "maskable"
     },
     {
-      "src": "https://urara-demo.netlify.app/assets/maskable@512.png",
+      "src": "https://jiwaszki.github.io/assets/maskable@512.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "maskable"

@@ -7,22 +7,47 @@
     xmlns:image="https://www.google.com/schemas/sitemap-image/1.1"
     xmlns:video="https://www.google.com/schemas/sitemap-video/1.1">
     <url>
-      <loc>https://urara-demo.netlify.app</loc>
+      <loc>https://jiwaszki.github.io</loc>
     </url>
     
         <url>
-            <loc>https://urara-demo.netlify.app/hello-world/elements</loc>
-            <lastmod>2023-01-16T15:50:14.347Z</lastmod>
+            <loc>https://jiwaszki.github.io/about-me</loc>
+            <lastmod>2023-01-16T20:05:34.108Z</lastmod>
             <priority>0.5</priority>
         </url>
         <url>
-            <loc>https://urara-demo.netlify.app/hello-world/toc-disabled</loc>
-            <lastmod>2023-01-16T15:50:14.347Z</lastmod>
+            <loc>https://jiwaszki.github.io/blog/ai-ml</loc>
+            <lastmod>1997-03-20T00:00:00.000Z</lastmod>
             <priority>0.5</priority>
         </url>
         <url>
-            <loc>https://urara-demo.netlify.app/hello-world</loc>
-            <lastmod>2021-12-12T00:00:00.000Z</lastmod>
+            <loc>https://jiwaszki.github.io/blog/general</loc>
+            <lastmod>1997-03-20T00:00:00.000Z</lastmod>
+            <priority>0.5</priority>
+        </url>
+        <url>
+            <loc>https://jiwaszki.github.io/blog/math</loc>
+            <lastmod>1997-03-20T00:00:00.000Z</lastmod>
+            <priority>0.5</priority>
+        </url>
+        <url>
+            <loc>https://jiwaszki.github.io/blog/pybind11</loc>
+            <lastmod>1997-03-20T00:00:00.000Z</lastmod>
+            <priority>0.5</priority>
+        </url>
+        <url>
+            <loc>https://jiwaszki.github.io/blog/python</loc>
+            <lastmod>1997-03-20T00:00:00.000Z</lastmod>
+            <priority>0.5</priority>
+        </url>
+        <url>
+            <loc>https://jiwaszki.github.io/projects</loc>
+            <lastmod>1997-03-20T00:00:00.000Z</lastmod>
+            <priority>0.5</priority>
+        </url>
+        <url>
+            <loc>https://jiwaszki.github.io/template</loc>
+            <lastmod>1997-03-20T00:00:00.000Z</lastmod>
             <priority>0.5</priority>
         </url>
   </urlset>
