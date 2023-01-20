@@ -11,7 +11,24 @@ export const site: SiteConfig = {
     avatar: '/assets/profile_pic.png',
     name: 'Jan Iwaszkiewicz',
     status: '🦧',
-    bio: "AI Frameworks Engineer, self-taught artist, basketball enjoyer, pug owner"
+    bio: "AI Frameworks Engineer, self-taught artist, basketball enjoyer, pug owner",
+    metadata: [
+        {
+            // text: "github jiwaszki",
+            icon: "i-simple-icons-github",
+            link: "https://github.com/jiwaszki",
+        },
+        {
+            // text: "linkedin jiwaszki",
+            icon: "i-simple-icons-linkedin",
+            link: "https://www.linkedin.com/in/jan-iwaszkiewicz-80442a1a5",
+        },
+        {
+            // text: "instagram jiwaszki",
+            icon: "i-simple-icons-instagram",
+            link: "https://www.instagram.com/illumitata/",
+        },
+    ],
   },
   themeColor: '#F5EBD3'
 }
