@@ -30,23 +30,19 @@ export const header: HeaderConfig = {
         children: [
             {
               text: '💭 general',
-              link: '/blog/general'
+              link: '/sections/general'
             },
             {
                 text: '🐍 python',
-                link: '/blog/python'
-            },
-            {
-              text: '🐍 pybind11',
-              link: '/blog/pybind11'
+                link: '/sections/python'
             },
             {
                 text: '💻 ai & ml',
-                link: '/blog/ai-ml'
+                link: '/sections/ai-ml'
             },
             {
                 text: '📚 math',
-                link: '/blog/math'
+                link: '/sections/math'
             },
             // {
             //   text: 'section name',
