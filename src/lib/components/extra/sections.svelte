@@ -57,6 +57,7 @@
       in:fly={{ x: -25, duration: 300, delay: 500 }}
       out:fly={{ x: -25, duration: 300 }}
       class="flex-1 w-full max-w-screen-md xl:order-last mx-auto xl:ml-0 xl:mr-8 xl:max-w-md">
+      <!-- TODO: add box with "{section.id} related tags:" -->
       {#if allTags && Object.keys(allTags).length > 0}
         <div
           class="flex xl:flex-wrap gap-2 overflow-x-auto xl:overflow-x-hidden overflow-y-hidden max-h-24 my-auto xl:max-h-fit max-w-fit xl:max-w-full pl-8 md:px-0 xl:pl-8 xl:pt-8">
@@ -83,14 +84,20 @@
             class="bg-base-300 text-base-content shadow-inner text-center md:rounded-box p-10 -mb-2 md:mb-0 relative z-10">
             <div class="prose items-center">
               <h2>
-                Not found: [{#each tags as tag, i}
-                  '{tag}'{#if i + 1 < tags.length},{/if}
-                {/each}]
+                {#if tags.length != 0}
+                    No posts matching all of tags: [{#each tags as tag, i}
+                    '{tag}'{#if i + 1 < tags.length},{/if}
+                    {/each}]
+                {:else}
+                    No posts in this section
+                {/if}
               </h2>
-              <button on:click={() => (tags = [])} class="btn btn-secondary">
-                <span class="i-heroicons-outline-trash mr-2" />
-                tags = []
-              </button>
+              {#if tags.length != 0}
+                <button on:click={() => (tags = [])} class="btn btn-secondary">
+                    <span class="i-heroicons-outline-trash mr-2" />
+                    tags = []
+                </button>
+              {/if}
             </div>
           </div>
         {/if}

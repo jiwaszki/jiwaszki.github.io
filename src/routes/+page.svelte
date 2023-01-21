@@ -76,7 +76,7 @@
           class="bg-base-300 text-base-content shadow-inner text-center md:rounded-box p-10 -mb-2 md:mb-0 relative z-10">
           <div class="prose items-center">
             <h2>
-              Not found: [{#each tags as tag, i}
+              No posts matching all of tags: [{#each tags as tag, i}
                 '{tag}'{#if i + 1 < tags.length},{/if}
               {/each}]
             </h2>
