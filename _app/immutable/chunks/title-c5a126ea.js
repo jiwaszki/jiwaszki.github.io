@@ -1,0 +1,3 @@
+import"./index-8b04b68a.js";import{w as e}from"./index-15bb3304.js";function f(o){const t=o-1;return t*t*t+1}function d(o,{delay:t=0,duration:r=400,easing:c=f,x:i=0,y:p=0,opacity:m=0}={}){const s=getComputedStyle(o),n=+s.opacity,u=s.transform==="none"?"":s.transform,l=n*(1-m);return{delay:t,duration:r,easing:c,css:(a,y)=>`
+			transform: ${u} translate(${(1-a)*i}px, ${(1-a)*p}px);
+			opacity: ${n-l*y}`}}const w={comment:{use:["Giscus"],style:"boxed",giscus:{repo:"jiwaszki/jiwaszki.github.io",repoID:"R_kgDOIyERSg",category:"Comments",categoryID:"DIC_kwDOIyERSs4CTt5a",reactionsEnabled:!0,inputPosition:"top",lang:"en",theme:"preferred_color_scheme",loading:"lazy"}}},D=e([]),I=e([]),_=e({});export{D as a,I as b,d as f,w as p,_ as t};

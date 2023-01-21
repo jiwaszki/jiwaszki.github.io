@@ -21,22 +21,18 @@
 		<link rel="modulepreload" href="../../_app/immutable/chunks/icon-a408a0f5.js">
 		<link rel="modulepreload" href="../../_app/immutable/modules/pages/_layout.ts-690d05ce.js">
 		<link rel="modulepreload" href="../../_app/immutable/chunks/_layout-e59680bc.js">
-		<link rel="modulepreload" href="../../_app/immutable/components/pages/blog/math/_page.svelte.md-19f8f0b5.js">
-		<link rel="modulepreload" href="../../_app/immutable/chunks/post_layout-9a2ed2dd.js">
-		<link rel="modulepreload" href="../../_app/immutable/chunks/post_card-59cb0478.js">
-		<link rel="modulepreload" href="../../_app/immutable/chunks/footer-f0a2c021.js"><title>placeholder | jiwaszki</title><!-- HEAD_svelte-1592q3p_START --><!-- HEAD_svelte-1592q3p_END --><!-- HEAD_svelte-1kxdj3d_START --><link rel="shortcut icon" href="https://jiwaszki.github.io/favicon.png" sizes="48x48" type="image/png"><link rel="apple-touch-icon" href="https://jiwaszki.github.io/assets/any@180.png" sizes="180x180" type="image/png"><link rel="icon" href="https://jiwaszki.github.io/assets/any@192.png" sizes="192x192" type="image/png"><!-- HEAD_svelte-1kxdj3d_END --><!-- HEAD_svelte-1g590ms_START --><meta name="theme-color"><!-- HEAD_svelte-1g590ms_END --><!-- HEAD_svelte-abrfj_START --><meta name="author" content="Jan Iwaszkiewicz"><link rel="canonical" href="https://jiwaszki.github.io/blog/math">
+		<link rel="modulepreload" href="../../_app/immutable/components/pages/sections/ai-ml/_page.svelte-9c3189e5.js">
+		<link rel="modulepreload" href="../../_app/immutable/chunks/sections-a051accc.js">
+		<link rel="modulepreload" href="../../_app/immutable/chunks/stores-7407458a.js">
+		<link rel="modulepreload" href="../../_app/immutable/chunks/footer-f0a2c021.js">
+		<link rel="modulepreload" href="../../_app/immutable/chunks/post_card-59cb0478.js"><title>jiwaszki - jiwaszki's blog</title><!-- HEAD_svelte-1592q3p_START --><!-- HEAD_svelte-1592q3p_END --><!-- HEAD_svelte-1kxdj3d_START --><link rel="shortcut icon" href="https://jiwaszki.github.io/favicon.png" sizes="48x48" type="image/png"><link rel="apple-touch-icon" href="https://jiwaszki.github.io/assets/any@180.png" sizes="180x180" type="image/png"><link rel="icon" href="https://jiwaszki.github.io/assets/any@192.png" sizes="192x192" type="image/png"><!-- HEAD_svelte-1kxdj3d_END --><!-- HEAD_svelte-1g590ms_START --><meta name="theme-color"><!-- HEAD_svelte-1g590ms_END --><!-- HEAD_svelte-abrfj_START --><meta name="author" content="Jan Iwaszkiewicz"><meta name="description" content="Powered by SvelteKit/Urara">
+    <meta name="keywords">
     
-    <meta name="keywords" content="math, ai-ml">
-    <meta name="description" content="Placeholder summary."><!-- HEAD_svelte-abrfj_END --><!-- HEAD_svelte-1y1uq0g_START --><meta property="og:site_name" content="jiwaszki"><meta property="og:locale" content="en-US"><meta property="og:type" content="article">
-    <meta property="og:title" content="placeholder">
-    <meta property="og:description" content="Placeholder summary.">
+      <link rel="canonical" href="https://jiwaszki.github.io"><!-- HEAD_svelte-abrfj_END --><!-- HEAD_svelte-1y1uq0g_START --><meta property="og:site_name" content="jiwaszki"><meta property="og:locale" content="en-US"><meta property="og:type" content="website">
     <meta property="og:image" content="https://jiwaszki.github.io/assets/maskable@512.png">
-      <meta name="twitter:card" content="summary">
-    <meta property="article:tag" content="math"><meta property="article:tag" content="ai-ml">
-    <meta property="og:url" content="https://jiwaszki.github.io/blog/math">
-    <meta property="article:author" content="Jan Iwaszkiewicz">
-    <meta property="article:published_time" content="1997-03-20T00:00:00.000Z">
-    <meta property="article:modified_time" content="1997-03-20T00:00:00.000Z"><!-- HEAD_svelte-1y1uq0g_END -->
+    <meta property="og:description" content="Powered by SvelteKit/Urara">
+    <meta property="og:title" content="jiwaszki">
+      <meta property="og:url" content="https://jiwaszki.github.io"><!-- HEAD_svelte-1y1uq0g_END -->
   </head>
   <body itemscope itemtype="https://schema.org/WebPage">
     <div style="display: contents">
@@ -101,26 +97,49 @@
 
 
 
-<div class="flex flex-col flex-nowrap justify-center xl:flex-row xl:flex-wrap"><div class="flex-1 w-full max-w-screen-md order-first ease-out transform mx-auto xl:mr-0"></div>
-  <div class="flex-1 w-full max-w-screen-md xl:order-last ease-out transform mx-auto xl:mr-0"></div>
-  <div class="flex-none w-full max-w-screen-md mx-auto xl:mx-0"><article itemscope itemtype="https://schema.org/BlogPosting" itemprop="blogPost" class="h-entry card bg-base-100 rounded-none md:rounded-box md:shadow-xl overflow-hidden z-10 md:mb-8 lg:mb-16">
+
+
+<div class="flex flex-col flex-nowrap justify-center xl:flex-row xl:flex-wrap h-feed"><div class="flex-1 w-full max-w-screen-md order-first mx-auto xl:mr-0 xl:ml-8 xl:max-w-md"></div>
+    <div class="flex-1 w-full max-w-screen-md xl:order-last mx-auto xl:ml-0 xl:mr-8 xl:max-w-md">
+      <div class="flex xl:flex-wrap gap-2 overflow-x-auto xl:overflow-x-hidden overflow-y-hidden max-h-24 my-auto xl:max-h-fit max-w-fit xl:max-w-full pl-8 md:px-0 xl:pl-8 xl:pt-8"><button id="ai-ml" class="btn btn-sm btn-ghost normal-case border-dotted border-base-content/20 border-2 mt-4 mb-8 xl:m-0">#ai-ml
+            </button><button id="ai" class="btn btn-sm btn-ghost normal-case border-dotted border-base-content/20 border-2 mt-4 mb-8 xl:m-0">#ai
+            </button><button id="ml" class="btn btn-sm btn-ghost normal-case border-dotted border-base-content/20 border-2 mt-4 mb-8 xl:m-0">#ml
+            </button></div></div>
+    <div class="flex-none w-full max-w-screen-md mx-auto xl:mx-0">
+        
+        <main class="flex flex-col relative bg-base-100 md:bg-transparent md:gap-8 z-10" itemprop="mainEntityOfPage" itemscope itemtype="https://schema.org/Blog">
+            
+            <div class="rounded-box transition-all duration-500 ease-in-out hover:z-30 hover:shadow-lg md:shadow-xl md:hover:shadow-2xl md:hover:-translate-y-0.5"><article itemscope itemtype="https://schema.org/BlogPosting" itemprop="blogPost" class="h-entry card bg-base-100 rounded-none md:rounded-box md:shadow-xl overflow-hidden z-10   group">
   
   
   <div class="card-body gap-0 "><div class="flex flex-col gap-2">
-      <div class="flex font-semibold gap-1.5"><a rel="author" class="opacity-75 hover:opacity-100 hover:text-primary duration-500 ease-in-out p-author h-card" href="https://jiwaszki.github.io">Jan Iwaszkiewicz</a>
-  <span class="opacity-50">/</span>
+      <div class="flex font-semibold gap-1.5"><a rel="author" class="opacity-75 hover:opacity-100 hover:text-primary duration-500 ease-in-out p-author h-card hidden" href="https://jiwaszki.github.io">Jan Iwaszkiewicz</a>
+  <span class="opacity-50 hidden">/</span>
+  <a href="/blog/ai-ml" class="u-url u-uid swap group/time"><time class="group-hover/time:opacity-0 font-semibold opacity-75 duration-500 ease-in-out mr-auto dt-published" datetime="1997-03-20T00:00:00.000Z" itemprop="datePublished">Thursday, Mar 20, 97</time>
+    <time class="opacity-0 group-hover/time:opacity-100 font-semibold text-primary duration-500 ease-in-out mr-auto dt-updated" datetime="1997-03-20T00:00:00.000Z" itemprop="dateModified">Thursday, Mar 20, 97</time></a></div>
+      <h2 itemprop="name headline" class="card-title text-3xl mr-auto bg-[length:100%_0%] bg-[position:0_88%] underline decoration-4 decoration-transparent group-hover:decoration-primary hover:bg-[length:100%_100%] hover:text-primary-content bg-gradient-to-t from-primary to-primary bg-no-repeat transition-all ease-in-out duration-300"><a itemprop="url" class="u-url p-name" href="/blog/ai-ml">AI&amp;ML TEST</a></h2>
+      <p itemprop="description" class="p-summary mb-auto">Placeholder summary.</p></div>
+    <main itemprop="articleBody" class="urara-prose prose e-content"></main>
+    </div>
+  </article>
+            </div>
+            
+            <div class="rounded-box transition-all duration-500 ease-in-out hover:z-30 hover:shadow-lg md:shadow-xl md:hover:shadow-2xl md:hover:-translate-y-0.5"><article itemscope itemtype="https://schema.org/BlogPosting" itemprop="blogPost" class="h-entry card bg-base-100 rounded-none md:rounded-box md:shadow-xl overflow-hidden z-10   group">
+  
+  
+  <div class="card-body gap-0 "><div class="flex flex-col gap-2">
+      <div class="flex font-semibold gap-1.5"><a rel="author" class="opacity-75 hover:opacity-100 hover:text-primary duration-500 ease-in-out p-author h-card hidden" href="https://jiwaszki.github.io">Jan Iwaszkiewicz</a>
+  <span class="opacity-50 hidden">/</span>
   <a href="/blog/math" class="u-url u-uid swap group/time"><time class="group-hover/time:opacity-0 font-semibold opacity-75 duration-500 ease-in-out mr-auto dt-published" datetime="1997-03-20T00:00:00.000Z" itemprop="datePublished">Thursday, Mar 20, 97</time>
     <time class="opacity-0 group-hover/time:opacity-100 font-semibold text-primary duration-500 ease-in-out mr-auto dt-updated" datetime="1997-03-20T00:00:00.000Z" itemprop="dateModified">Thursday, Mar 20, 97</time></a></div>
-      <h1 itemprop="name headline" class="card-title text-3xl mb-8 p-name">placeholder</h1>
-      <p itemprop="description" class="p-summary mb-auto hidden">Placeholder summary.</p></div>
-    <main itemprop="articleBody" class="urara-prose prose e-content"><h2 id="math"><a href="#math">Math</a></h2></main>
-    <div class="divider mt-4 mb-0"></div>
-      <div><a href="/?tags=math" class="btn btn-sm btn-ghost normal-case mt-2 mr-2 p-category">#math
-          </a><a href="/?tags=ai-ml" class="btn btn-sm btn-ghost normal-case mt-2 mr-2 p-category">#ai-ml
-          </a></div></div>
-  
-    </article>
-    <footer id="footer" class="footer footer-center bg-base-300 text-base-content shadow-inner p-8 md:rounded-box sticky bottom-0 z-0 md:static "><div class="prose"><p><a href="/atom.xml" rel="noopener noreferrer external" target="_blank">Feed</a>
+      <h2 itemprop="name headline" class="card-title text-3xl mr-auto bg-[length:100%_0%] bg-[position:0_88%] underline decoration-4 decoration-transparent group-hover:decoration-primary hover:bg-[length:100%_100%] hover:text-primary-content bg-gradient-to-t from-primary to-primary bg-no-repeat transition-all ease-in-out duration-300"><a itemprop="url" class="u-url p-name" href="/blog/math">placeholder</a></h2>
+      <p itemprop="description" class="p-summary mb-auto">Placeholder summary.</p></div>
+    <main itemprop="articleBody" class="urara-prose prose e-content"></main>
+    </div>
+  </article>
+            </div></main>
+        <div class="sticky bottom-0 md:static md:mt-8 hidden"><div class="divider mt-0 mb-8 hidden lg:flex"></div>
+          <footer id="footer" class="footer footer-center bg-base-300 text-base-content shadow-inner p-8 md:rounded-box  "><div class="prose"><p><a href="/atom.xml" rel="noopener noreferrer external" target="_blank">Feed</a>
           <span class="mr-1">·</span><a href="/sitemap.xml" rel="noopener noreferrer external" target="_blank">Sitemap</a>
           
         <br>
@@ -130,19 +149,19 @@
       Powered by
       <a rel="noopener noreferrer external" target="_blank" class="tooltip tooltip-secondary hover:text-secondary" data-tip="🌸 [δ] - Based on MDsveX & SvelteKit 🌸" href="https://github.com/importantimport/urara">Urara
       </a>
-      </p></div></footer></div></div></div>
+      </p></div></footer></div></div></div></div>
 
 
-		<script type="module" data-sveltekit-hydrate="1b630f0">
+		<script type="module" data-sveltekit-hydrate="1qtf0sh">
 			import { start } from "../../_app/immutable/start-6d5bf845.js";
 
 			start({
 				env: {},
 				paths: {"base":"","assets":""},
-				target: document.querySelector('[data-sveltekit-hydrate="1b630f0"]').parentNode,
+				target: document.querySelector('[data-sveltekit-hydrate="1qtf0sh"]').parentNode,
 				version: "1674322895943",
 				hydrate: {
-					node_ids: [0, 6],
+					node_ids: [0, 9],
 					data: [null,null],
 					form: null
 				}

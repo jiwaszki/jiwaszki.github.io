@@ -6,12 +6,15 @@
   <icon>https://jiwaszki.github.io/favicon.png</icon>
   <link href="https://jiwaszki.github.io" />
   <link href="https://jiwaszki.github.io/atom.xml" rel="self" type="application/atom+xml" />
-  <updated>2023-01-16T20:06:07.735Z</updated>
+  <updated>2023-01-21T17:41:52.182Z</updated>
   <author>
     <name><![CDATA[Jan Iwaszkiewicz]]></name>
   </author>
+  <category term="ai-ml" scheme="https://jiwaszki.github.io/?tags=ai-ml" />
+  <category term="placeholder" scheme="https://jiwaszki.github.io/?tags=placeholder" />
+  <category term="math" scheme="https://jiwaszki.github.io/?tags=math" />
   <entry>
-    <title type="html"><![CDATA[placeholder]]></title>
+    <title type="html"><![CDATA[AI&ML TEST]]></title>
     <link href="https://jiwaszki.github.io/blog/ai-ml" />
     <id>https://jiwaszki.github.io/blog/ai-ml</id>
     <published>1997-03-20T00:00:00.000Z</published>
@@ -19,7 +22,8 @@
     <summary type="html"><![CDATA[Placeholder summary.]]></summary>
     <content type="html">
       <![CDATA[<h2 id="ai--ml"><a href="#ai--ml">AI &amp; ML</a></h2>]]>
-    </content>undefined
+    </content>
+    <category term="ai-ml" scheme="https://jiwaszki.github.io/?tags=ai-ml" />
   </entry>
   <entry>
     <title type="html"><![CDATA[placeholder]]></title>
@@ -30,7 +34,8 @@
     <summary type="html"><![CDATA[Placeholder summary.]]></summary>
     <content type="html">
       <![CDATA[<h2 id="blog"><a href="#blog">Blog</a></h2>]]>
-    </content>undefined
+    </content>
+    <category term="placeholder" scheme="https://jiwaszki.github.io/?tags=placeholder" />
   </entry>
   <entry>
     <title type="html"><![CDATA[placeholder]]></title>
@@ -41,18 +46,9 @@
     <summary type="html"><![CDATA[Placeholder summary.]]></summary>
     <content type="html">
       <![CDATA[<h2 id="math"><a href="#math">Math</a></h2>]]>
-    </content>undefined
-  </entry>
-  <entry>
-    <title type="html"><![CDATA[placeholder]]></title>
-    <link href="https://jiwaszki.github.io/blog/pybind11" />
-    <id>https://jiwaszki.github.io/blog/pybind11</id>
-    <published>1997-03-20T00:00:00.000Z</published>
-    <updated>1997-03-20T00:00:00.000Z</updated>
-    <summary type="html"><![CDATA[Placeholder summary.]]></summary>
-    <content type="html">
-      <![CDATA[<h2 id="pybind11"><a href="#pybind11">pybind11</a></h2>]]>
-    </content>undefined
+    </content>
+    <category term="math" scheme="https://jiwaszki.github.io/?tags=math" />
+    <category term="ai-ml" scheme="https://jiwaszki.github.io/?tags=ai-ml" />
   </entry>
   <entry>
     <title type="html"><![CDATA[placeholder]]></title>
@@ -63,17 +59,6 @@
     <summary type="html"><![CDATA[Placeholder summary.]]></summary>
     <content type="html">
       <![CDATA[<h2 id="python"><a href="#python">Python</a></h2>]]>
-    </content>undefined
-  </entry>
-  <entry>
-    <title type="html"><![CDATA[placeholder]]></title>
-    <link href="https://jiwaszki.github.io/projects" />
-    <id>https://jiwaszki.github.io/projects</id>
-    <published>1997-03-20T00:00:00.000Z</published>
-    <updated>1997-03-20T00:00:00.000Z</updated>
-    <summary type="html"><![CDATA[Placeholder summary.]]></summary>
-    <content type="html">
-      <![CDATA[<hr><h2 id="openvino"><a href="#openvino">OpenVINO</a></h2><hr><h2 id="pybind11"><a href="#pybind11">pybind11</a></h2><hr>]]>
     </content>undefined
   </entry>
 </feed>
