@@ -25,5 +25,86 @@
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content>
     </item>
     
+    <item>
+      <title>About me - Jan Iwaszkiewicz</title>
+      <link>//localhost:1313/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/about/</guid>
+      <description>&lt;p&gt;TBA:)&lt;/p&gt;
+&lt;h2 id=&#34;-open-source-projects&#34;&gt;📚 Open Source Projects&lt;/h2&gt;
+&lt;p&gt;Here are some of the projects I contributed to, either as an employee or an active member of the community:&lt;/p&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;Project&lt;/th&gt;
+          &lt;th&gt;About My Contributions&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;img src=&#34;https://github.com/openvinotoolkit/openvino/raw/master/docs/dev/assets/openvino-logo-purple-black.svg&#34; style=&#34;width: 100%;&#34;&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;a href=&#34;https://github.com/openvinotoolkit/openvino&#34;&gt;OpenVINO on GitHub&lt;/a&gt; - As a Technical Leader, I designed the Python API and worked on integrations with various AI/ML frameworks such as NumPy, PyTorch, and TensorFlow. I specialized in high-to-low-level memory optimizations and Python internals. I also led both internal and external demos and training sessions on AI and performance topics.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;img src=&#34;https://github.com/huggingface/optimum-intel/raw/main/readme_logo.png&#34; style=&#34;width: 100%;&#34;&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;a href=&#34;https://github.com/huggingface/optimum-intel&#34;&gt;Optimum Intel on GitHub&lt;/a&gt; - I helped integrate OpenVINO optimizations and provided expertise on their correct application in AI/ML workloads.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;img src=&#34;https://github.com/pybind/pybind11/raw/master/docs/pybind11-logo.png&#34; style=&#34;width: 100%;&#34;&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;a href=&#34;https://github.com/pybind/pybind11&#34;&gt;pybind11 on GitHub&lt;/a&gt; - Active member of the community, answering developer questions and contributing occasional commits for improvements.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;img src=&#34;https://github.com/Samsung/ONE/raw/master/docs/images/logo_original_samsungblue_cropped.png&#34; style=&#34;width: 100%;&#34;&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;a href=&#34;https://github.com/Samsung/ONE&#34;&gt;Samsung ONE on GitHub&lt;/a&gt; - I introduced performance and graph optimizations and made improvements to the build system for the Python API.&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;-work-experience&#34;&gt;👷 Work Experience&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Samsung&lt;/strong&gt; - 2024.07-2024.09&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Intel&lt;/strong&gt; - 2018.07-2024.06&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;-support-me-&#34;&gt;🎉 Support me 😊&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.buymeacoffee.com/jiwaszki&#34;&gt;&lt;img src=&#34;https://img.buymeacoffee.com/button-api/?text=Buy me a coffee&amp;emoji=&amp;slug=jiwaszki&amp;button_colour=FFDD00&amp;font_colour=000000&amp;font_family=Lato&amp;outline_colour=000000&amp;coffee_colour=ffffff&#34; alt=&#34;Buy me a coffee&#34;/&gt;&lt;/a&gt;&lt;/p&gt;</description>
+      <content>&lt;p&gt;TBA:)&lt;/p&gt;
+&lt;h2 id=&#34;-open-source-projects&#34;&gt;📚 Open Source Projects&lt;/h2&gt;
+&lt;p&gt;Here are some of the projects I contributed to, either as an employee or an active member of the community:&lt;/p&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;Project&lt;/th&gt;
+          &lt;th&gt;About My Contributions&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;img src=&#34;https://github.com/openvinotoolkit/openvino/raw/master/docs/dev/assets/openvino-logo-purple-black.svg&#34; style=&#34;width: 100%;&#34;&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;a href=&#34;https://github.com/openvinotoolkit/openvino&#34;&gt;OpenVINO on GitHub&lt;/a&gt; - As a Technical Leader, I designed the Python API and worked on integrations with various AI/ML frameworks such as NumPy, PyTorch, and TensorFlow. I specialized in high-to-low-level memory optimizations and Python internals. I also led both internal and external demos and training sessions on AI and performance topics.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;img src=&#34;https://github.com/huggingface/optimum-intel/raw/main/readme_logo.png&#34; style=&#34;width: 100%;&#34;&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;a href=&#34;https://github.com/huggingface/optimum-intel&#34;&gt;Optimum Intel on GitHub&lt;/a&gt; - I helped integrate OpenVINO optimizations and provided expertise on their correct application in AI/ML workloads.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;img src=&#34;https://github.com/pybind/pybind11/raw/master/docs/pybind11-logo.png&#34; style=&#34;width: 100%;&#34;&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;a href=&#34;https://github.com/pybind/pybind11&#34;&gt;pybind11 on GitHub&lt;/a&gt; - Active member of the community, answering developer questions and contributing occasional commits for improvements.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;img src=&#34;https://github.com/Samsung/ONE/raw/master/docs/images/logo_original_samsungblue_cropped.png&#34; style=&#34;width: 100%;&#34;&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;a href=&#34;https://github.com/Samsung/ONE&#34;&gt;Samsung ONE on GitHub&lt;/a&gt; - I introduced performance and graph optimizations and made improvements to the build system for the Python API.&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;-work-experience&#34;&gt;👷 Work Experience&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Samsung&lt;/strong&gt; - 2024.07-2024.09&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Intel&lt;/strong&gt; - 2018.07-2024.06&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;-support-me-&#34;&gt;🎉 Support me 😊&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.buymeacoffee.com/jiwaszki&#34;&gt;&lt;img src=&#34;https://img.buymeacoffee.com/button-api/?text=Buy me a coffee&amp;emoji=&amp;slug=jiwaszki&amp;button_colour=FFDD00&amp;font_colour=000000&amp;font_family=Lato&amp;outline_colour=000000&amp;coffee_colour=ffffff&#34; alt=&#34;Buy me a coffee&#34;/&gt;&lt;/a&gt;&lt;/p&gt;
+</content>
+    </item>
+    
   </channel>
 </rss>
