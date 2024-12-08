@@ -14,7 +14,7 @@ unsafe = true
   contentTypeName = "posts"
 
   # if you set this to 0, only submenu trigger will be visible
-  showMenuItems = 3
+  showMenuItems = 6
 
   # show selector to switch language
   showLanguageSelector = true
@@ -102,10 +102,27 @@ unsafe = true
           identifier = "about"
           name = "About"
           url = "/about"
+          weight = 1  # This changes the order of items in menu
         [[languages.en.menu.main]]
           identifier = "showcase"
           name = "Showcase"
           url = "/showcase"
+          weight = 2
+        [[languages.en.menu.main]]
+          identifier = "github"
+          # https://fontawesome.com/search
+          pre = "<i class='fa-brands fa-github fa-lg'></i>"
+          title = "Github"
+          name = "Github"
+          url = "https://www.github.com/jiwaszki"
+          weight = 3
+        [[languages.en.menu.main]]
+          identifier = "linkedin"
+          pre = "<i class='fa-brands fa-linkedin fa-lg'></i>"
+          title = "LinkedIn"
+          name = "LinkedIn"
+          url = "https://www.linkedin.com/in/jan-iwaszkiewicz-80442a1a5/"
+          weight = 3
 
 [module]
 replacements = "github.com/panr/hugo-theme-terminal/v4 -> themes/terminal"
