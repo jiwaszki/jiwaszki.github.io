@@ -35,6 +35,13 @@ body {
     font-variant-ligatures: contextual;
     -webkit-overflow-scrolling: touch;
     -webkit-text-size-adjust: 100%;
+    /* pagefind - style of the search bar */
+    --pagefind-ui-primary: var(--background);
+    --pagefind-ui-text: var(--foreground);
+    --pagefind-ui-background: var(--background);
+    --pagefind-ui-border: var(--accent);
+    --pagefind-ui-tag: var(--accent);
+    --pagefind-ui-font: "Fira Code";
 }
 
 ::placeholder {
