@@ -42,6 +42,7 @@ body {
     --pagefind-ui-border: var(--accent);
     --pagefind-ui-tag: var(--accent);
     --pagefind-ui-font: "Fira Code";
+    --pagefind-ui-scale: 0.75;
 }
 
 ::placeholder {

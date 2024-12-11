@@ -167,7 +167,7 @@ def add(x, y): return x &#43; y " />
     
   </div>
   
-    <nav class="navigation-menu">
+    <nav class="navigation-menu" style="margin-bottom: 1em">
     <ul class="navigation-menu__inner menu--desktop">
           
         <li>
@@ -212,10 +212,13 @@ def add(x, y): return x &#43; y " />
 <link href="/pagefind/pagefind-ui.css" rel="stylesheet" />
 <script src="/pagefind/pagefind-ui.js"></script>
 
-<div id="search" class=""></div>
+<div id="search" class="" style=""></div>
 <script>
     window.addEventListener("DOMContentLoaded", (event) => {
-        new PagefindUI({ element: "#search", showSubResults: true });
+        new PagefindUI({
+            element: "#search",
+            showSubResults: false,
+        });
     });
 </script>
 

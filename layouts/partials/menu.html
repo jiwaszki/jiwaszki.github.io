@@ -1,4 +1,4 @@
-<nav class="navigation-menu">
+<nav class="navigation-menu" style="margin-bottom: 1em">
     <ul class="navigation-menu__inner menu--desktop">
         {{ if or $.Site.Params.showMenuItems ( eq .Site.Params.showMenuItems 0 )
         }} {{ range first $.Site.Params.showMenuItems $.Site.Menus.main }} {{ if
@@ -74,9 +74,12 @@
 <link href="/pagefind/pagefind-ui.css" rel="stylesheet" />
 <script src="/pagefind/pagefind-ui.js"></script>
 
-<div id="search" class=""></div>
+<div id="search" class="" style=""></div>
 <script>
     window.addEventListener("DOMContentLoaded", (event) => {
-        new PagefindUI({ element: "#search", showSubResults: true });
+        new PagefindUI({
+            element: "#search",
+            showSubResults: false,
+        });
     });
 </script>
