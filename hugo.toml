@@ -99,10 +99,15 @@ unsafe = true
 
       [languages.en.menu]
         [[languages.en.menu.main]]
+          identifier = "Home"
+          name = "Home"
+          url = "/"
+          weight = 1
+        [[languages.en.menu.main]]
           identifier = "about"
           name = "About"
           url = "/about"
-          weight = 1  # This changes the order of items in menu
+          weight = 2  # This changes the order of items in menu
         [[languages.en.menu.main]]
           identifier = "showcase"
           name = "Showcase"
