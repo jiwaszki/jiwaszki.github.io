@@ -1,6 +1,7 @@
 +++
 author = 'jiwaszki'
 title = "About me - Jan Iwaszkiewicz"
+description = ""
 framed = true
 hideComments = true
 +++
