@@ -2,27 +2,27 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on jiwaszki&#39;s blog</title>
-    <link>//localhost:1313/tags/</link>
+    <link>https://localhost:1313/tags/</link>
     <description>Recent content in Tags on jiwaszki&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 11 Dec 2024 02:45:03 +0100</lastBuildDate><atom:link href="//localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 11 Dec 2024 02:45:03 +0100</lastBuildDate><atom:link href="https://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hugo</title>
-      <link>//localhost:1313/tags/hugo/</link>
+      <link>https://localhost:1313/tags/hugo/</link>
       <pubDate>Wed, 11 Dec 2024 02:45:03 +0100</pubDate>
       
-      <guid>//localhost:1313/tags/hugo/</guid>
+      <guid>https://localhost:1313/tags/hugo/</guid>
       <description></description>
       <content></content>
     </item>
     
     <item>
       <title>Website</title>
-      <link>//localhost:1313/tags/website/</link>
+      <link>https://localhost:1313/tags/website/</link>
       <pubDate>Wed, 11 Dec 2024 02:45:03 +0100</pubDate>
       
-      <guid>//localhost:1313/tags/website/</guid>
+      <guid>https://localhost:1313/tags/website/</guid>
       <description></description>
       <content></content>
     </item>

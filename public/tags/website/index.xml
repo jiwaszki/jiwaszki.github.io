@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Website on jiwaszki&#39;s blog</title>
-    <link>//localhost:1313/tags/website/</link>
+    <link>https://localhost:1313/tags/website/</link>
     <description>Recent content in Website on jiwaszki&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 11 Dec 2024 02:45:03 +0100</lastBuildDate><atom:link href="//localhost:1313/tags/website/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 11 Dec 2024 02:45:03 +0100</lastBuildDate><atom:link href="https://localhost:1313/tags/website/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Setting Up Your Website with Hugo</title>
-      <link>//localhost:1313/posts/hugo_setting_up/</link>
+      <link>https://localhost:1313/posts/hugo_setting_up/</link>
       <pubDate>Wed, 11 Dec 2024 02:45:03 +0100</pubDate>
       
-      <guid>//localhost:1313/posts/hugo_setting_up/</guid>
+      <guid>https://localhost:1313/posts/hugo_setting_up/</guid>
       <description>&lt;p&gt;Setting up your personal page can be a challenging yet rewarding experience. I wanted to share my thoughts in a blog and experimented with various approaches and frameworks. Not all of them suited my needs. In the end, I’m just a &lt;em&gt;chill&lt;/em&gt; engineer who focuses on performance and memory optimization. Finally, I discovered &lt;code&gt;hugo&lt;/code&gt;. This framework makes it easy to create a fast and customizable static site. &lt;strong&gt;Most importantly, it allows me to copy directly from my Obsidian notes while retaining most of the styling!&lt;/strong&gt; Here&amp;rsquo;s a short guide to get you started.&lt;/p&gt;</description>
       <content>&lt;p&gt;Setting up your personal page can be a challenging yet rewarding experience. I wanted to share my thoughts in a blog and experimented with various approaches and frameworks. Not all of them suited my needs. In the end, I’m just a &lt;em&gt;chill&lt;/em&gt; engineer who focuses on performance and memory optimization. Finally, I discovered &lt;code&gt;hugo&lt;/code&gt;. This framework makes it easy to create a fast and customizable static site. &lt;strong&gt;Most importantly, it allows me to copy directly from my Obsidian notes while retaining most of the styling!&lt;/strong&gt; Here&amp;rsquo;s a short guide to get you started.&lt;/p&gt;
 &lt;h2 id=&#34;getting-started&#34;&gt;Getting Started&lt;/h2&gt;

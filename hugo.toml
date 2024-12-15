@@ -5,6 +5,13 @@ languageCode = "en-us"
 theme = "terminal"
 paginate = 5
 
+[server]
+    [[server.headers]]
+        for = "/*"
+    [server.headers.values]
+        # Alternativly use "*" WA in cases where multiple origins are required:
+        Access-Control-Allow-Origin = "https://giscus.app"
+
 [markup.goldmark.renderer]
 unsafe = true
 
@@ -65,6 +72,19 @@ unsafe = true
     showSearch = true
     enableRobotsTXT = true
     enableSitemap = true
+
+[params.giscus]
+  repo = "jiwaszki/jiwaszki.github.io"
+  repo_id = "R_kgDONabawQ"
+  category = "Announcements"
+  category_id = "DIC_kwDONabawc4ClBlj"
+  mapping = "pathname"
+  strict = "0"
+  reactions_enabled = "1"
+  emit_metadata = "0"
+  input_position = "top"
+  lang = "en"
+  loading = "lazy"
 
 [params.twitter]
   # set Twitter handles for Twitter cards
